@@ -1,5 +1,4 @@
-package ch3_Constructor;
-
+package ch2_Encapsulation;
 
 class Customer
 {
@@ -30,11 +29,8 @@ class Customer
     }
 }
 
-
-
-
 public class DemoConstrutor {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         
         Customer c1 = new Customer();
         c1.setData(10, "aaaa", 132654);
