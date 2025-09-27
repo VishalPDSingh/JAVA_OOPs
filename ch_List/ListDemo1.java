@@ -1,16 +1,19 @@
 package ch_List;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
+
 
 public class ListDemo1 {
     public static void main(String[] args) {
        
-        List<Integer> i = new ArrayList<>();
-        i.add(20);
-        i.add(10);
-        i.add(15);
-
-        i.add(1,50);
+        // List Decleration
+        List<String> name = new ArrayList<>();
+        // add method
+        name.add("A");
+        name.add("B");
+        name.add("C");
+        name.add("D");
+        name.add("E");
+        System.out.println(name);
     }
 }
